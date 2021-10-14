@@ -11,7 +11,7 @@ export default function Things() {
     try {
       let res = await axios.get("/api/things");
       console.log(res);
-    } catch (error) {}
+    } catch (error) { }
   };
   return (
     <div>
